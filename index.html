@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Donation List</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <!-- Navigation Bar -->
+<nav class="bg-white shadow mb-6">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="index.html" class="text-xl font-bold text-blue-600">DonationTrack</a>
+    <div class="space-x-4 text-sm">
+      <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
+      <a href="about.html" class="text-gray-700 hover:text-blue-600">About</a>
+    </div>
+  </div>
+</nav>
+
+
+  <h1 class="text-3xl font-bold text-center mb-6">People Who Need Your Help</h1>
+  <div id="peopleList" class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto"></div>
+
+  <script src="people-data.js"></script>
+  <script src="script.js"></script>
+
+  <div class="text-center text-sm text-gray-500">
+    © 2025 DonationTrack | Trackable Giving Made Easy
+  </div>
+</body>
+</html>
