@@ -12,7 +12,7 @@ const peopleInNeed = [
       id: 2,
       name: "Maria Lee",
       reason: "Support for education",
-      proof: "proof/maria.jpg",
+      proof: "proof/maria.JPG",
       description: "Maria is a brilliant student from a low-income family, raising money for college tuition.",
       balance: 1200.00,
       lastTransaction: "Books - $30.00"
